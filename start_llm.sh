@@ -16,6 +16,9 @@ QUANT="${QUANT-fp8}"
 MEM="${MEM:-0.38}"
 PORT="${PORT:-8000}"
 CONTEXT="${CONTEXT:-8192}"
+# MAX_TOKENS: twardy limit KV cache w tokenach (~32 KB/token); np. 16384 = ~0,5 GB. Przydatne, gdy
+# LLM startuje po innych usługach: MEM liczy się od całej karty, więc trzeba go wtedy podnieść (0.9).
+KV_ARGS=(); [[ -n "${MAX_TOKENS:-}" ]] && KV_ARGS=(--max-total-tokens "${MAX_TOKENS}")
 # EAGER=1: bez grafów CUDA (szybszy start, wolniejsze dekodowanie).
 if [[ "${EAGER:-0}" == 1 ]]; then GRAPH_ARGS=(--disable-cuda-graph); else GRAPH_ARGS=(--cuda-graph-max-bs-decode 4); fi
 export CUDA_VISIBLE_DEVICES="${DEVICE:-0}"
@@ -34,6 +37,6 @@ export SGLANG_ENABLE_JIT_DEEPGEMM="${SGLANG_ENABLE_JIT_DEEPGEMM:-0}"
 path="${MODEL_PATH:-$(.venv-llm/bin/hf download "${MODEL}" --revision "${REVISION}" --quiet)}"
 exec .venv-llm/bin/python -m sglang.launch_server --model-path "${path}" --served-model-name poziomka \
     --trust-remote-code ${QUANT:+--quantization "${QUANT}"} --mem-fraction-static "${MEM}" \
-    --context-length "${CONTEXT}" --max-running-requests 4 "${GRAPH_ARGS[@]}" \
+    --context-length "${CONTEXT}" --max-running-requests 4 "${GRAPH_ARGS[@]}" "${KV_ARGS[@]}" \
     --attention-backend "${ATTENTION:-triton}" --sampling-backend "${SAMPLING:-pytorch}" \
     --host 127.0.0.1 --port "${PORT}"

@@ -12,3 +12,6 @@ modele/zrodlo/*
 
 # Wyniki: tylko JSON, bez nagrań
 wyniki/**/*.wav
+
+# Oryginalne nagranie z OBS (w repo jest demo/poziomka_glos_demo.mp4)
+*.mkv

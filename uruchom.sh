@@ -22,7 +22,7 @@ start() {  # nazwa, port (0 = bez /health), polecenie...
     echo "${name}: brak odpowiedzi na /health po 10 min" >&2; exit 1
 }
 
-start llm 8000 env MODEL_PATH=modele/Poziomka-Instruct-2026-10-20-FP8 QUANT= EAGER=1 CONTEXT=2048 MEM=0.38 bash start_llm.sh
+start llm 8000 env MODEL_PATH=modele/Poziomka-Instruct-2026-10-20-FP8 QUANT= EAGER=1 CONTEXT=2048 MEM=0.90 MAX_TOKENS=16384 bash start_llm.sh
 start tts 8002 .venv-tts/bin/python tts_voxcpm2/server.py --port 8002 --voices glosy --default-voice poziomka
 start stt 8001 .venv-stt/bin/python stt_canary/server.py --port 8001
 start bot 0 .venv-bot/bin/python bot/bot.py -t webrtc --host "${BOT_HOST:-localhost}" --port "${BOT_PORT:-7860}"
