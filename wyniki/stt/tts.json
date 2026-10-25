@@ -1,0 +1,162 @@
+[
+ {
+  "id": "00",
+  "audio_s": 2.56,
+  "latency_s": 0.088,
+  "ref": "Dzień dobry! W czym mogę pomóc?",
+  "hyp": "Dzień dobry! Czy mogę pomóc?",
+  "wer": 0.333
+ },
+ {
+  "id": "01",
+  "audio_s": 3.2,
+  "latency_s": 0.126,
+  "ref": "Jutro w Warszawie będzie pochmurno, około dwunastu stopni.",
+  "hyp": "Już doros w Warszawie będzie pochmurno około 12 stopni.",
+  "wer": 0.375
+ },
+ {
+  "id": "02",
+  "audio_s": 2.88,
+  "latency_s": 0.134,
+  "ref": "Jasne, ustawiam przypomnienie na siódmą trzydzieści rano.",
+  "hyp": "Jasne, ustawiam przypomnienie na siódmą trzydzieści rano.",
+  "wer": 0.0
+ },
+ {
+  "id": "03",
+  "audio_s": 4.96,
+  "latency_s": 0.133,
+  "ref": "Nie jestem pewna, ale wydaje mi się, że to było w tysiąc dziewięćset osiemdziesiątym dziewiątym roku.",
+  "hyp": "Nie jestem pewna, ale wydaje mi się, że to było w 1989 roku.",
+  "wer": 0.25
+ },
+ {
+  "id": "04",
+  "audio_s": 4.48,
+  "latency_s": 0.149,
+  "ref": "Pociąg do Krakowa odjeżdża z peronu trzeciego o czternastej piętnaście.",
+  "hyp": "Pociąg do Krakowa odjeżdża z Peronu trzeciego o 14:15.",
+  "wer": 0.2
+ },
+ {
+  "id": "05",
+  "audio_s": 1.44,
+  "latency_s": 0.121,
+  "ref": "Przepraszam, nie usłyszałam. Możesz powtórzyć?",
+  "hyp": "Przepraszam, nie słyszałam, możesz powtórzyć?",
+  "wer": 0.2
+ },
+ {
+  "id": "06",
+  "audio_s": 4.8,
+  "latency_s": 0.159,
+  "ref": "Najprościej będzie ugotować makaron, a w tym czasie podsmażyć cebulę z czosnkiem.",
+  "hyp": "Najprościej będzie ugotować makaron, a w tym czasie podsmażyć cebulę z czoskiem.",
+  "wer": 0.083
+ },
+ {
+  "id": "07",
+  "audio_s": 4.0,
+  "latency_s": 0.137,
+  "ref": "Szczebrzeszyn słynie z chrząszcza, który brzmi w trzcinie.",
+  "hyp": "Szczebrzyszyn słynnie schrząszcza, który brzmi w trzecim.",
+  "wer": 0.625
+ },
+ {
+  "id": "08",
+  "audio_s": 6.24,
+  "latency_s": 0.163,
+  "ref": "To zależy od tego, ile masz czasu. Jeśli godzinę, polecam krótki spacer nad Wisłą.",
+  "hyp": "To zależy od tego, ile masz czasu. Jeśli godzinę polecam krótki spacer nad Wisłą,",
+  "wer": 0.0
+ },
+ {
+  "id": "09",
+  "audio_s": 4.64,
+  "latency_s": 0.135,
+  "ref": "Twoje spotkanie z panią Agnieszką zaczyna się za piętnaście minut.",
+  "hyp": "Twoje spotkanie z panią Agnieszką zaczyna się za 15 minut.",
+  "wer": 0.1
+ },
+ {
+  "id": "10",
+  "audio_s": 1.28,
+  "latency_s": 0.044,
+  "ref": "Tak.",
+  "hyp": "tak",
+  "wer": 0.0
+ },
+ {
+  "id": "11",
+  "audio_s": 5.76,
+  "latency_s": 0.148,
+  "ref": "Mam dla ciebie trzy propozycje: kino, teatr albo koncert jazzowy w Starym Mieście.",
+  "hyp": "Mam dla ciebie trzy propozycje kino, teatr albo koncert jazzowy w starym mieście.",
+  "wer": 0.0
+ },
+ {
+  "id": "12",
+  "audio_s": 4.48,
+  "latency_s": 0.152,
+  "ref": "Według moich danych liczba ludności Polski to około trzydziestu siedmiu milionów.",
+  "hyp": "Według moich danych liczba ludności Polski to około trzydziestu siedmiu milionów",
+  "wer": 0.0
+ },
+ {
+  "id": "13",
+  "audio_s": 2.24,
+  "latency_s": 0.092,
+  "ref": "Oczywiście, zaraz sprawdzę rozkład autobusów.",
+  "hyp": "Oczywiście zaraz sprawdzę rozkład autobusów.",
+  "wer": 0.0
+ },
+ {
+  "id": "14",
+  "audio_s": 5.28,
+  "latency_s": 0.161,
+  "ref": "Fotosynteza to proces, w którym rośliny zamieniają światło słoneczne na energię chemiczną.",
+  "hyp": "Fotosynteza to proces, w którym rośliny zamieniają światło słoneczne na energię chemiczną.",
+  "wer": 0.0
+ },
+ {
+  "id": "15",
+  "audio_s": 3.04,
+  "latency_s": 0.124,
+  "ref": "Hmm, dobre pytanie. Daj mi chwilę do namysłu.",
+  "hyp": "Mm. Dobre pytanie. Daj mi chwilę do namysłu.",
+  "wer": 0.125
+ },
+ {
+  "id": "16",
+  "audio_s": 2.72,
+  "latency_s": 0.134,
+  "ref": "Wysłałam wiadomość do Tomka z informacją, że się spóźnisz.",
+  "hyp": "Wysłałam wiadomość do Tomka z informacją, że się spóźnisz.",
+  "wer": 0.0
+ },
+ {
+  "id": "17",
+  "audio_s": 5.44,
+  "latency_s": 0.158,
+  "ref": "Gżegżółka i źdźbło to słowa, które sprawiają kłopot nawet Polakom.",
+  "hyp": "Grzeb rzuka i źdźbło to słowa, które sprawiają kłopot nawet Polakom",
+  "wer": 0.2
+ },
+ {
+  "id": "18",
+  "audio_s": 2.24,
+  "latency_s": 0.083,
+  "ref": "Na razie to wszystko. Miłego dnia!",
+  "hyp": "Na razie to wszystko. Miłego dnia!",
+  "wer": 0.0
+ },
+ {
+  "id": "19",
+  "audio_s": 2.4,
+  "latency_s": 0.144,
+  "ref": "Pamiętaj, żeby wziąć parasol, bo po południu może padać.",
+  "hyp": "Pamiętaj, żeby wziąć parasol, bo po południu może padać.",
+  "wer": 0.0
+ }
+]

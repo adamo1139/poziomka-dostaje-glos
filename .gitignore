@@ -1,0 +1,14 @@
+# Środowiska (uv venv), dane, logi z prawdziwych rozmów
+.venv*/
+dane/
+logi/
+__pycache__/
+
+# Modele: checkpoint FP8 i dowiązania do cache HF; w repo tylko łatka kodu Poziomki pod transformers 5
+modele/*
+!modele/zrodlo/
+modele/zrodlo/*
+!modele/zrodlo/modeling_bailing_moe_v2.py
+
+# Wyniki: tylko JSON, bez nagrań
+wyniki/**/*.wav

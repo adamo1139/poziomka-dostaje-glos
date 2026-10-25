@@ -1,0 +1,29 @@
+{
+ "model": "nvidia/canary-1b-v2",
+ "dtype": "bfloat16",
+ "gpu": "NVIDIA GeForce RTX 5080",
+ "load_s": 46.0,
+ "fleurs": {
+  "n": 150,
+  "wer": 7.88,
+  "audio_s_median": 9.6,
+  "latency_s": {
+   "median": 0.222,
+   "p90": 0.31,
+   "max": 0.466
+  },
+  "rtf_median": 0.0229
+ },
+ "tts": {
+  "n": 20,
+  "wer": 12.22,
+  "audio_s_median": 3.6,
+  "latency_s": {
+   "median": 0.134,
+   "p90": 0.159,
+   "max": 0.163
+  },
+  "rtf_median": 0.0342
+ },
+ "peak_vram_gb": 2.01
+}

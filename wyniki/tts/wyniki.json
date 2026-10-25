@@ -1,0 +1,200 @@
+{
+ "model": "openbmb/VoxCPM2",
+ "gpu": "NVIDIA GeForce RTX 5080",
+ "sample_rate": 48000,
+ "compile": true,
+ "reference": null,
+ "load_s": 143.3,
+ "warmup_s": 0.6,
+ "first_audio_s": {
+  "median": 0.045,
+  "max": 0.053
+ },
+ "rtf": {
+  "median": 0.464,
+  "max": 0.495
+ },
+ "peak_vram_gb": 5.66,
+ "rows": [
+  {
+   "i": 0,
+   "text": "Dzień dobry! W czym mogę pomóc?",
+   "first_audio_s": 0.044,
+   "total_s": 1.194,
+   "audio_s": 2.56,
+   "rtf": 0.466,
+   "chunks": 16
+  },
+  {
+   "i": 1,
+   "text": "Jutro w Warszawie będzie pochmurno, około dwunastu stopni.",
+   "first_audio_s": 0.043,
+   "total_s": 1.478,
+   "audio_s": 3.2,
+   "rtf": 0.462,
+   "chunks": 20
+  },
+  {
+   "i": 2,
+   "text": "Jasne, ustawiam przypomnienie na siódmą trzydzieści rano.",
+   "first_audio_s": 0.043,
+   "total_s": 1.324,
+   "audio_s": 2.88,
+   "rtf": 0.46,
+   "chunks": 18
+  },
+  {
+   "i": 3,
+   "text": "Nie jestem pewna, ale wydaje mi się, że to było w tysiąc dziewięćset osiemdziesiątym dziewiątym roku.",
+   "first_audio_s": 0.053,
+   "total_s": 2.376,
+   "audio_s": 4.96,
+   "rtf": 0.479,
+   "chunks": 31
+  },
+  {
+   "i": 4,
+   "text": "Pociąg do Krakowa odjeżdża z peronu trzeciego o czternastej piętnaście.",
+   "first_audio_s": 0.044,
+   "total_s": 2.075,
+   "audio_s": 4.48,
+   "rtf": 0.463,
+   "chunks": 28
+  },
+  {
+   "i": 5,
+   "text": "Przepraszam, nie usłyszałam. Możesz powtórzyć?",
+   "first_audio_s": 0.044,
+   "total_s": 0.643,
+   "audio_s": 1.44,
+   "rtf": 0.446,
+   "chunks": 9
+  },
+  {
+   "i": 6,
+   "text": "Najprościej będzie ugotować makaron, a w tym czasie podsmażyć cebulę z czosnkiem.",
+   "first_audio_s": 0.043,
+   "total_s": 2.216,
+   "audio_s": 4.8,
+   "rtf": 0.462,
+   "chunks": 30
+  },
+  {
+   "i": 7,
+   "text": "Szczebrzeszyn słynie z chrząszcza, który brzmi w trzcinie.",
+   "first_audio_s": 0.044,
+   "total_s": 1.838,
+   "audio_s": 4.0,
+   "rtf": 0.459,
+   "chunks": 25
+  },
+  {
+   "i": 8,
+   "text": "To zależy od tego, ile masz czasu. Jeśli godzinę, polecam krótki spacer nad Wisłą.",
+   "first_audio_s": 0.047,
+   "total_s": 2.998,
+   "audio_s": 6.24,
+   "rtf": 0.48,
+   "chunks": 39
+  },
+  {
+   "i": 9,
+   "text": "Twoje spotkanie z panią Agnieszką zaczyna się za piętnaście minut.",
+   "first_audio_s": 0.05,
+   "total_s": 2.296,
+   "audio_s": 4.64,
+   "rtf": 0.495,
+   "chunks": 29
+  },
+  {
+   "i": 10,
+   "text": "Tak.",
+   "first_audio_s": 0.05,
+   "total_s": 0.612,
+   "audio_s": 1.28,
+   "rtf": 0.478,
+   "chunks": 8
+  },
+  {
+   "i": 11,
+   "text": "Mam dla ciebie trzy propozycje: kino, teatr albo koncert jazzowy w Starym Mieście.",
+   "first_audio_s": 0.045,
+   "total_s": 2.831,
+   "audio_s": 5.76,
+   "rtf": 0.492,
+   "chunks": 36
+  },
+  {
+   "i": 12,
+   "text": "Według moich danych liczba ludności Polski to około trzydziestu siedmiu milionów.",
+   "first_audio_s": 0.044,
+   "total_s": 2.072,
+   "audio_s": 4.48,
+   "rtf": 0.463,
+   "chunks": 28
+  },
+  {
+   "i": 13,
+   "text": "Oczywiście, zaraz sprawdzę rozkład autobusów.",
+   "first_audio_s": 0.047,
+   "total_s": 1.028,
+   "audio_s": 2.24,
+   "rtf": 0.459,
+   "chunks": 14
+  },
+  {
+   "i": 14,
+   "text": "Fotosynteza to proces, w którym rośliny zamieniają światło słoneczne na energię chemiczną.",
+   "first_audio_s": 0.044,
+   "total_s": 2.45,
+   "audio_s": 5.28,
+   "rtf": 0.464,
+   "chunks": 33
+  },
+  {
+   "i": 15,
+   "text": "Hmm, dobre pytanie. Daj mi chwilę do namysłu.",
+   "first_audio_s": 0.046,
+   "total_s": 1.466,
+   "audio_s": 3.04,
+   "rtf": 0.482,
+   "chunks": 19
+  },
+  {
+   "i": 16,
+   "text": "Wysłałam wiadomość do Tomka z informacją, że się spóźnisz.",
+   "first_audio_s": 0.05,
+   "total_s": 1.323,
+   "audio_s": 2.72,
+   "rtf": 0.486,
+   "chunks": 17
+  },
+  {
+   "i": 17,
+   "text": "Gżegżółka i źdźbło to słowa, które sprawiają kłopot nawet Polakom.",
+   "first_audio_s": 0.045,
+   "total_s": 2.529,
+   "audio_s": 5.44,
+   "rtf": 0.465,
+   "chunks": 34
+  },
+  {
+   "i": 18,
+   "text": "Na razie to wszystko. Miłego dnia!",
+   "first_audio_s": 0.046,
+   "total_s": 1.016,
+   "audio_s": 2.24,
+   "rtf": 0.454,
+   "chunks": 14
+  },
+  {
+   "i": 19,
+   "text": "Pamiętaj, żeby wziąć parasol, bo po południu może padać.",
+   "first_audio_s": 0.045,
+   "total_s": 1.09,
+   "audio_s": 2.4,
+   "rtf": 0.454,
+   "chunks": 15
+  }
+ ]
+}
