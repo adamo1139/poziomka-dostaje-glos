@@ -2,7 +2,9 @@
 
 # Poziomka dostaje głos
 
-[![Demo: rozmowa z Poziomką](demo/miniatura.jpg)](demo/poziomka_glos_demo.mp4)
+
+
+https://github.com/user-attachments/assets/b5dec5d6-139a-4b66-988f-b3d19f94938c
 
 *Demo (94 s, kliknij miniaturę): rozmowa z Poziomką w przeglądarce, wszystko na jednej RTX 5080.*
 
