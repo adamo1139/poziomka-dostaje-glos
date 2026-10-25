@@ -1,3 +1,5 @@
+
+
 # Poziomka dostaje głos
 
 [![Demo: rozmowa z Poziomką](demo/miniatura.jpg)](demo/poziomka_glos_demo.mp4)
