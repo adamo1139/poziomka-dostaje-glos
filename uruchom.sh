@@ -22,7 +22,11 @@ start() {  # nazwa, port (0 = bez /health), polecenie...
     echo "${name}: brak odpowiedzi na /health po 10 min" >&2; exit 1
 }
 
-start llm 8000 env MODEL_PATH=modele/Poziomka-Instruct-2026-10-20-FP8 QUANT= EAGER=1 CONTEXT=2048 MEM=0.90 MAX_TOKENS=16384 bash start_llm.sh
+# Poziomka FP8: lokalny checkpoint z kwantyzuj_fp8.py, a jeśli go nie ma, ten sam checkpoint z HF.
+FP8_LOCAL=modele/Poziomka-Instruct-2026-10-20-FP8
+if [[ -f "${FP8_LOCAL}/model.safetensors" ]]; then FP8=(MODEL_PATH="${FP8_LOCAL}")
+else FP8=(MODEL=cpral/Poziomka-Instruct-2026-10-20-FP8 REVISION=f70f4f14df451ab227322eba0a9e8a698cf59810); fi
+start llm 8000 env "${FP8[@]}" QUANT= EAGER=1 CONTEXT=2048 MEM=0.90 MAX_TOKENS=16384 bash start_llm.sh
 start tts 8002 .venv-tts/bin/python tts_voxcpm2/server.py --port 8002 --voices glosy --default-voice poziomka
 start stt 8001 .venv-stt/bin/python stt_canary/server.py --port 8001
 start bot 0 .venv-bot/bin/python bot/bot.py -t webrtc --host "${BOT_HOST:-localhost}" --port "${BOT_PORT:-7860}"
